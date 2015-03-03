@@ -1,0 +1,125 @@
+body {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+        }
+
+        #header {
+          width:1080px;
+          height: 50px;
+          margin: 0 auto;
+          margin-bottom: 10px;
+        }
+
+        #header ul { 
+          background:#23a1d1;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          padding-left: 25px;
+        } 
+
+        #header ul li {
+          display:inline; 
+          height:50px;
+          text-align: -webkit-match-parent;
+        }
+
+        #header ul li a { 
+          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+          background-color: transparent;
+          color: #fff;
+          display:inline-block; 
+          padding: 10px 15px 10px 15px;
+          height:30px;
+          line-height:30px;
+          text-decoration:none;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+        }
+
+        #header ul li a:hover {
+          background:#1E8BB5;
+        }
+
+        #main {
+          margin-top: 10px;
+          width:1080px;
+          height: 900px;
+          border: 1px solid #23a1d1;
+          margin:0 auto;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+        }
+
+        #main-left {
+          width: 800px;
+          height: 100%;
+          border-right: 1px solid #ddd;
+          float: left;
+        }
+
+        .article {
+          width: 800px;
+          border-bottom: 1px solid #ddd;
+        }
+
+        .article .article-title {
+          margin-top: 15px;
+          margin-left: 30px;
+        }
+
+        .article .article-title a {
+          text-decoration: underline;
+          font-size: 20px;
+          color: #23a1d1;
+          cursor: pointer;
+        }
+
+        .article .article-title a:hover {
+          background: #23a1d1;
+          color:#fff;
+          text-decoration: none;
+        }
+        .article .article-brife {
+          font-size: 16px;
+          margin-left: 30px;
+          margin-right: 30px;
+          margin-top: 15px;
+        }
+
+        .article .article-time {
+           margin-top: 20px;
+           margin-left: 30px;
+           margin-bottom: 10px;
+        }
+
+        .last-article {
+          border-bottom: 0px;
+        }
+
+        #main-right {
+          width: 264px;
+          height: 100%;
+          float: left;
+        }
+
+        #main-right-recent {
+           width: 264px;
+           height: 300px;
+           border-bottom: 1px solid #ddd;
+        }
+
+         #main-right-review {
+           width: 264px;
+           height: 200px;
+        }
+
+        #footer {
+           width:1080px;
+           height: 50px;
+           border: 1px solid #23a1d1;
+           margin:0 auto;
+           margin-top: 10px;
+           -moz-border-radius: 5px;
+           -webkit-border-radius: 5px;
+        }

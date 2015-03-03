@@ -1,167 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <style type="text/css">
-        body {
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 400;
-          font-size: 12px;
-        }
-
-        #header {
-          width:1080px;
-          height: 50px;
-          margin: 0 auto;
-          margin-bottom: 10px;
-        }
-
-        #header ul { 
-          background:#23a1d1;
-          -moz-border-radius: 5px;
-          -webkit-border-radius: 5px;
-          padding-left: 25px;
-        } 
-
-        #header ul li {
-          display:inline; 
-          height:50px;
-          text-align: -webkit-match-parent;
-        }
-
-        #header ul li a { 
-          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-          background-color: transparent;
-          color: #fff;
-          display:inline-block; 
-          padding: 10px 15px 10px 15px;
-          height:30px;
-          line-height:30px;
-          text-decoration:none;
-          -moz-border-radius: 5px;
-          -webkit-border-radius: 5px;
-        }
-
-        #header ul li a:hover {
-          background:#1E8BB5;
-        }
-
-        #main {
-          margin-top: 10px;
-          width:1080px;
-          height: 900px;
-          border: 1px solid #23a1d1;
-          margin:0 auto;
-          -moz-border-radius: 5px;
-          -webkit-border-radius: 5px;
-        }
-
-        #main-left {
-          width: 800px;
-          height: 100%;
-          border-right: 1px solid #ddd;
-          float: left;
-        }
-
-        .article {
-          width: 800px;
-          height: 300px;
-          border-bottom: 1px solid #ddd;
-        }
-
-        .article .article-title {
-          margin-top: 15px;
-          margin-left: 30px;
-        }
-        .article .article-title a {
-          text-decoration: underline;
-          font-size: 20px;
-          color: #23a1d1;
-          cursor: pointer;
-        }
-
-        .article .article-title a:hover {
-          background: #23a1d1;
-          color:#fff;
-          text-decoration: none;
-        }
-        .article .article-brife {
-          font-size: 16px;
-          margin-left: 30px;
-          margin-right: 30px;
-          margin-top: 15px;
-        }
-
-        .article .article-time {
-           margin-top: 20px;
-           margin-left: 30px;
-        }
-
-        .last-article {
-          border-bottom: 0px;
-        }
-        #main-right {
-          width: 264px;
-          height: 100%;
-          float: left;
-        }
-
-        #main-right-recent {
-           width: 264px;
-           height: 300px;
-           border-bottom: 1px solid #ddd;
-        }
-
-         #main-right-review {
-           width: 264px;
-           height: 200px;
-        }
-
-        #footer {
-           width:1080px;
-           height: 50px;
-           border: 1px solid #23a1d1;
-           margin:0 auto;
-           margin-top: 10px;
-           -moz-border-radius: 5px;
-           -webkit-border-radius: 5px;
-        }
-    </style>
+  <link href="css/index.css" rel="stylesheet" type="text/css" />   
   </head>
 <body>
 <div id="header">
   <ul> 
     <li><a href="#">HOME</a></li>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JAVA</a></li>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">PHP</a></li> 
-    <li><a href="#">SPRING FRAMEWORK</a></li>
-    <li><a href="#">MYSQL</a></li>
-    <li><a href="#">MAVEN</a></li>
-    <li><a href="#">GIT</a></li>
   </ul>
 </div>
 <div id="main">
   <div id="main-left">
-    <div class="article">
-      <div class="article-title"><a hred="#">Spring Security Login module</a></div>
-      <div class="article-brife">brife description brife description brife description description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife  </div>
-      <div class="article-time">2013-01-01 12:00:22 </div>
-    </div>
-    <div class="article">
-      <div class="article-title"><a hred="#">Hibernate Mapping Relationship </a></div>
-      <div class="article-brife">brife description brife description brife description description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife  </div>
-      <div class="article-time">2013-01-01 12:00:22 </div>
-    </div>
-    <div class="article last-article">
-      <div class="article-title "><a hred="#">Java Web Basic </a></div>
-      <div class="article-brife">brife description brife description brife description description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife description brife 
-      description brife description brife description brife description brife description brife
-      description brife description brife description brife description brife description brife
-       </div>
-      <div class="article-time">2013-01-01 12:00:22 </div>
-    </div>
   </div>
   <div id="main-right">
     <div id="main-right-recent"><h2>RECENT POST.</h2></div>
@@ -173,4 +22,5 @@
 </div>
 </body>
 </html>
-
+<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
